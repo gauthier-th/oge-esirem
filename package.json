@@ -1,0 +1,31 @@
+{
+  "name": "oge-esirem",
+  "version": "1.0.0",
+  "description": "API pour OGE de l'ESIREM ",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node dist/index",
+    "build": "tsc",
+    "watch": "tsc -w -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauthier-th/oge-esirem.git"
+  },
+  "author": "gauthie-th",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gauthier-th/oge-esirem/issues"
+  },
+  "homepage": "https://github.com/gauthier-th/oge-esirem#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@types/node-fetch": "^2.5.10",
+    "typescript": "^4.2.4"
+  }
+}
