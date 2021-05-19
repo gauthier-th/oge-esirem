@@ -1,8 +1,8 @@
 {
   "name": "oge-esirem",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "API pour OGE de l'ESIREM ",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index",
     "build": "tsc",
