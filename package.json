@@ -1,6 +1,6 @@
 {
   "name": "oge-esirem",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "API pour OGE de l'ESIREM ",
   "main": "dist/index.js",
   "scripts": {

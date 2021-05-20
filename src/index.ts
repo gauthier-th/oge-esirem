@@ -1,6 +1,8 @@
 import { login } from './cas';
 import { lastBilanEtu, MatiereCategorie } from './bilanEtu';
 
+export type { EtuResponse, MatiereCategorie, MatiereInfos } from './bilanEtu';
+
 export default class OgeEsirem {
 
 	private viewState: string = null;
