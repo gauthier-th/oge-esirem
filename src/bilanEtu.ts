@@ -74,8 +74,6 @@ async function bilanEtu(html: string): Promise<MatiereCategorie> {
 			levels.push(infos.matiere);
 	}
 
-	console.log(JSON.stringify(result, null, '    '))
-
 	return result;
 }
 
@@ -89,7 +87,6 @@ export async function lastBilanEtu(jessionid: string): Promise<EtuResponse<Matie
 			Referer: bilanUrl
 		}
 	}).then(res => res.text());
-	console.log(html);
 
 	const htmlMatch = html.match(/<tbody id="mainBilanForm:treeTable_data" class="[\w\s-]+">((.|\s)*?)<\/tbody>/);
 	if (!htmlMatch || !htmlMatch[1])
